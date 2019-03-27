@@ -10,6 +10,9 @@ RUN apt-get update && \
 # Installing fastlane
 RUN gem install fastlane
 
+# Installing bundle
+RUN gem install bundle
+
 # Install gradle
 RUN wget https://services.gradle.org/distributions/gradle-4.6-bin.zip
 RUN mkdir /opt/gradle
